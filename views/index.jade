@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  h1= title
+  a(href=website) Visit my website
+  table(style='width:100%', border='0')
+    tr
+      td
+        img(src=imgUrl)
+      td(style='vertical-align: top')
+        <br />
+        #p= travelData
+        <br /><br />
+        #p= subtitle
+        <br /><br />
+        #p= subsubtitle
+        <br /><br />
+  p= lastUpdated
