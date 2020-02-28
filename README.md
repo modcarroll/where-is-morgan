@@ -12,8 +12,6 @@ Node.js app that pulls trip information from TripIt .iCal feed and displays on a
 
 - Google Maps Static API Key
 
-------
-
 ## Directions
 
 1. Modify `manifest.yml` with your preferred app name. Note that this will be prepended to ".mybluemix.net" once you deploy to IBM Cloud and will serve as your URL.
@@ -41,14 +39,12 @@ Node.js app that pulls trip information from TripIt .iCal feed and displays on a
 ```
 
 3. Run or deploy.
-------
 
 ## Run Locally
 
 1. `npm install`
 2. `nodemon start`
 
-------
 ## Deploy to IBM Cloud
 
 1. `ibmcloud login`
